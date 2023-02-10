@@ -1,4 +1,4 @@
 [submodule "source/Marlin"]
 	path = source/Marlin
 	url = https://github.com/invisiblek/Marlin.git
-	branch = kobraplus_temp
+	branch = kobraplus_testing
