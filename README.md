@@ -3,6 +3,8 @@
 
 This project is aimed to provide a way to build Marlin for the Anycubic Kobra Plus. More specifically we use a git submodule so we can hopefully someday track mainline marlin, but still build with Keil which due to the chip on these things is needed to build our firmware.
 
+BEWARE0: THIS BRANCH IS SO EXPERIMENTAL THAT YOUR CAT IS PROBABLY IN DANGER IF YOU TRY TO RUN IT. SPECIFICALLY IT REQUIRES HARDWARE MODIFICATIONS TO THE TRIGORILLA 1.0.4 BOARD IN YOUR POOR LITTLE ANYCUBIC PRINTER. MORE INFO [HERE](https://github.com/invisiblek/Marlin/commit/328cc9a666a8d8aa78652a7268aae3e9ecf370d8)
+
 BEWARE: there are some intricacies with the board in these printers and I'm like, not responsible for you burning down your house because you built someshit you found on the internet and flashed it to a chinese fire hazard you bought off the internet. i truly do not want that to happen but if it does, that's on you.
 
 This repo has a submodule that points to a "normal" marlin source.
